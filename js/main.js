@@ -20,9 +20,9 @@ function Mostrar_Ocultar(){
     }
 }
 
-const btnEspeciales = document.querySelector(".btnEspeciales").addEventListener("click" , Mostrar_Ocultar2);
+const btnEspeciales = document.querySelector(".btnEspeciales").addEventListener("click" , Mostrar_Ocultar21);
 
-function Mostrar_Ocultar2(){
+function Mostrar_Ocultar21(){
     document.querySelector(".lista__Rolls").style.display = "none";
     document.querySelector(".lista__Especiales").style.display = "flex"
 }
