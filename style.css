@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #12151A;
+  height: 100px;
+}
+.navbar .link-1 {
+  font-weight: bolder;
+}
+.navbar a {
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-right: 5px;
+}
+.navbar .toggler-custom {
+  background-image: url("https://img.icons8.com/material-outlined/24/000000/menu--v3.png");
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+main .imagen1 {
+  background-image: url(imagenes/piezas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+main .texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 30vh;
+}
+main .texto h1 {
+  color: white;
+  -webkit-text-decoration-line: overline;
+          text-decoration-line: overline;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: "Hind Siliguri", sans-serif;
+  letter-spacing: 3px;
+  margin-top: 25px;
+}
+main .texto p {
+  color: white;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 18px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.seccionInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(imagenes/textura3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.seccionInfo .cajas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 80vh;
+  width: 1000px;
+}
+.seccionInfo .cajas .menu {
+  background-image: url(imagenes/menu.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.seccionInfo .cajas .menu .menu__title {
+  color: white;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: bold;
+  font-family: 50px;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.seccionInfo .cajas .catering {
+  background-image: url(imagenes/cateringSushi.jpg);
+  filter: grayscale(30%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+.seccionInfo .cajas .catering .catering__title {
+  color: white;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: bold;
+  font-family: 50px;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.seccionInfo .cajas .promos {
+  background-image: url(imagenes/sushi.jpg);
+  filter: grayscale(30%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+.seccionInfo .cajas .promos .promos__title {
+  color: white;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: bold;
+  font-family: 50px;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.seccionInfo .cajas .delivery {
+  background-image: url(imagenes/sushiBox.jpg);
+  filter: grayscale(30%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+.seccionInfo .cajas .delivery .delivery__title {
+  color: white;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: bolder;
+  font-family: 50px;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.seccionInfo .cajas .salon {
+  background-image: url(imagenes/sushiSalon.jpg);
+  filter: grayscale(30%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+.seccionInfo .cajas .salon .salon__title {
+  color: white;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: bolder;
+  font-family: 50px;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.seccionInfo .cajas .contacto {
+  background-image: url(imagenes/sushiContact.jpg);
+  filter: grayscale(30%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+.seccionInfo .cajas .contacto .contacto__title {
+  color: white;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: bolder;
+  font-family: 50px;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.seccionHistoria {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url(imagenes/textura3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+}
+.seccionHistoria .historia {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.seccionHistoria .historia h2 {
+  color: white;
+  font-family: "Comforter Brush", cursive;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 45px;
+  width: 180px;
+}
+.seccionHistoria .historia p {
+  color: white;
+  width: 520px;
+  font-size: 18px;
+  text-align: center;
+}
+.seccionHistoria .historia p span {
+  background-color: black;
+}
+.seccionHistoria .imagenNosotros {
+  width: 50%;
+  height: 100%;
+  background-image: url(imagenes/sushiMan.jpg);
+  filter: grayscale(30%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: rgb(54, 54, 54);
+  height: 30vh;
+}
+
+.primeraSeccion {
+  display: flex;
+  flex-direction: column;
+}
+.primeraSeccion .seccionMenu {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+.primeraSeccion .seccionMenu .seccion__Texto {
+  color: white;
+  text-align: left;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.primeraSeccion .seccionMenu .seccion__Texto h2 {
+  text-transform: uppercase;
+}
+.primeraSeccion .seccionMenu .seccion__Texto h5 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.primeraSeccion .seccionMenu .seccion__Texto .linea {
+  border-top: 3px solid white;
+  height: 2px;
+  width: 200px;
+  margin-top: 15px;
+}
+.primeraSeccion .seccionMenu .seccion__Texto .lista__Entrada {
+  display: flex;
+  flex-direction: column;
+}
+.primeraSeccion .seccionMenu .seccion__Texto .lista__Entrada .modelo__TipoMenu {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.primeraSeccion .seccionMenu .seccion__Texto .lista__Entrada .modelo__TipoMenu h6 {
+  color: white;
+  font-weight: bolder;
+}
+.primeraSeccion .seccionMenu .seccion__Texto .lista__Entrada .modelo__TipoMenu p {
+  color: white;
+  width: 400px;
+}
+.primeraSeccion .seccionMenu .seccion__Img {
+  background-image: url(imagenes/gyosa.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 50%;
+}
+.primeraSeccion .seccionMenu2 {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+.primeraSeccion .seccionMenu2 .seccion__Texto2 {
+  color: white;
+  text-align: left;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.primeraSeccion .seccionMenu2 .seccion__Texto2 h2 {
+  text-transform: uppercase;
+}
+.primeraSeccion .seccionMenu2 .seccion__Texto2 h5 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.primeraSeccion .seccionMenu2 .seccion__Texto2 .linea {
+  border-top: 3px solid white;
+  height: 2px;
+  width: 200px;
+  margin-top: 15px;
+}
+.primeraSeccion .seccionMenu2 .seccion__Texto2 .lista__Entrada {
+  display: flex;
+  flex-direction: column;
+}
+.primeraSeccion .seccionMenu2 .seccion__Texto2 .lista__Entrada .modelo__TipoMenu {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.primeraSeccion .seccionMenu2 .seccion__Texto2 .lista__Entrada .modelo__TipoMenu h6 {
+  color: white;
+  font-weight: bolder;
+}
+.primeraSeccion .seccionMenu2 .seccion__Texto2 .lista__Entrada .modelo__TipoMenu p {
+  color: white;
+  width: 400px;
+}
+.primeraSeccion .seccionMenu2 .seccion__Img2 {
+  background-image: url(imagenes/tartar.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 50%;
+}
+.primeraSeccion .seccionMenu3 {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+.primeraSeccion .seccionMenu3 .seccion__Texto3 {
+  color: white;
+  text-align: left;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.primeraSeccion .seccionMenu3 .seccion__Texto3 h2 {
+  text-transform: uppercase;
+}
+.primeraSeccion .seccionMenu3 .seccion__Texto3 h5 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.primeraSeccion .seccionMenu3 .seccion__Texto3 .linea {
+  border-top: 3px solid white;
+  height: 2px;
+  width: 200px;
+  margin-top: 15px;
+}
+.primeraSeccion .seccionMenu3 .seccion__Texto3 .lista__Entrada {
+  display: flex;
+  flex-direction: column;
+}
+.primeraSeccion .seccionMenu3 .seccion__Texto3 .lista__Entrada .modelo__TipoMenu {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.primeraSeccion .seccionMenu3 .seccion__Texto3 .lista__Entrada .modelo__TipoMenu h6 {
+  color: white;
+  font-weight: bolder;
+}
+.primeraSeccion .seccionMenu3 .seccion__Texto3 .lista__Entrada .modelo__TipoMenu p {
+  color: white;
+  width: 400px;
+}
+.primeraSeccion .seccionMenu3 .seccion__Img3 {
+  background-image: url(imagenes/ensalada.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 50%;
+}
+
+.seccion__SushiTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 30vh;
+  width: 100%;
+  background-color: black;
+}
+.seccion__SushiTitle h5 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.seccion__SushiTitle .linea {
+  border-top: 3px solid white;
+  height: 2px;
+  width: 500px;
+  margin-top: 15px;
+}
+
+.seccion__SushiMenu {
+  height: 70vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+.seccion__SushiMenu .listaSushi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aqua;
+  font-size: 18px;
+  width: 30%;
+}
+.seccion__SushiMenu .pruebillas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  color: white;
+}
+.seccion__SushiMenu .pruebillas ul p {
+  margin-top: 15px;
+}
+.seccion__SushiMenu .pruebillas ul li {
+  margin-right: 15px;
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */
