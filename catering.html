@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -66,9 +65,9 @@
         href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500&family=Parisienne&family=Raleway&display=swap"
         rel="stylesheet">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -98,69 +97,27 @@
             </div>
         </nav>
     </header>
-    <main> 
-        <div class="imagen1">
-        </div>
-        
-        <div class="texto">
-            <h1>kame sushi</h1>
-            <p>Auténtico, moderno, en esencia,
-                un espacio gourmet. <br>
-                Los mejores platos de comida
-                fusión con alma oriental.</p>
-        </div>
-    </main>
 
-    <div class="seccionInfo">
-        <div class="cajas">
-            <div class="menu">
-            <a href="menu.html" style="text-decoration:none;">
-                <h3 class="menu__title">menú</h3>
-            </a>
-            </div>
-            <div class="catering">
-            <a href="catering.html" style="text-decoration:none;">
-                <h3 class="catering__title">catering</h3>
-            </a>
-            </div>
-            <div class="promos">
-                <h3 class="promos__title">promos</h3>
-            </div>
-            <div class="delivery">
-                <h3 class="delivery__title">delivery</h3>
-            </div>
-            <div class="salon">
-                <h3 class="salon__title">salon</h3>
-            </div>
-            <div class="contacto">
-                <h3 class="contacto__title">contacto</h3>
-            </div>
-        </div>
-    </div>
+    <main class="home__Catering">
 
-    <div class="seccionHistoria">
-        <div class="historia">
-            <h2>Fusión <br> en pasión</h2>
-            <p> <span>Abrimos nuestras puertas en Palermo Hollywood en el año 2008, con nuestro primer resto, delivery &
-                    take away, teniendo como norte el brindar un nuevo concepto culinario en la Ciudad de Buenos Aires,
-                    ofreciendo máxima calidad al mejor precio posible.
-                    Gracias al apoyo de nuestros clientes, experimentamos una explosión de crecimiento en el mercado.
-                    Somos diseñadores del buen gusto, y nos esforzamos para que absolutamente cada ingrediente componga
-                    una pieza perfecta.</span></p>
-        </div>
-        <div class="imagenNosotros">
-        </div>
-    </div>
-
-<div class="preFooter">
-    <div class="textoPreFooter">
-        <h5>ENJOY FABRIC, ENJOY FLAVOR <br><br>
-        SINCE 2008</h5>
-    </div>
-    
-    <div class="imgPreFooter">
-    </div>
-</div>
+        <form method='POST' action='enviar.php'>
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" name='nombre' id="nombre" placeholder="nombre...">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name='email' id="email" placeholder="email...">
+            </div>
+            <div class="form-group">
+                <label for="exampleTextarea">Mensaje</label>
+                <textarea class="form-control" name='mensaje' id="mensaje" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" required> Acepto la política de privacidad.
+            </div>
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
 
     <footer>
     </footer>
@@ -172,7 +129,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
-
+    <script src="enviar.php"></script>
 </body>
 
 </html>

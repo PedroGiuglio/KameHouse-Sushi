@@ -25,7 +25,7 @@
 main {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: #011013;
     width: 100%;
     height: 100vh;
 
@@ -124,7 +124,8 @@ main {
 
             .catering__title {
                 color: white;
-                font-family: 'Hind Siliguri', sans-serif;                font-weight: bold;
+                font-family: 'Hind Siliguri', sans-serif;                
+                font-weight: bold;
                 font-family: 50px;
                 margin-top: 20px;
                 text-align: center;
@@ -227,10 +228,7 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        background-image: url(imagenes/textura3.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-color: #011013;
         height: 70vh;
         width: 100%;
     .historia {
@@ -254,9 +252,6 @@ main {
             width: 520px;
             font-size: 18px;
             text-align: center;
-            span{
-                background-color: black;
-            }
         }
     }
     .imagenNosotros{
@@ -271,13 +266,40 @@ main {
 }
 
 
+.preFooter{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #011013;
+    .textoPreFooter{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        letter-spacing: 6px;
+    }
+    .imgPreFooter{
+        width: 50%;
+        height: 100%;
+        background-image: url(imagenes/preFooter.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
 footer{
     background-color: rgb(54, 54, 54);
     height: 30vh;
 }
 
 
-// 2) MENU // 
+// 2) SECCION MENU // 
 
 .primeraSeccion{
 display: flex;
@@ -285,7 +307,7 @@ flex-direction: column;
 .seccionMenu{
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #011013;
     display: flex;
     .seccion__Texto{
         color: white;
@@ -307,7 +329,7 @@ flex-direction: column;
         .linea{
             border-top: 3px solid white;
             height: 2px;
-            width: 200px;
+            width: 400px;
             margin-top: 15px;
         }
         .lista__Entrada{
@@ -341,7 +363,7 @@ flex-direction: column;
 .seccionMenu2{
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #011013;
     display: flex;
     .seccion__Texto2{
         color: white;
@@ -363,7 +385,7 @@ flex-direction: column;
         .linea{
             border-top: 3px solid white;
             height: 2px;
-            width: 200px;
+            width: 400px;
             margin-top: 15px;
         }
         .lista__Entrada{
@@ -397,7 +419,7 @@ flex-direction: column;
 .seccionMenu3{
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #011013;
     display: flex;
     .seccion__Texto3{
         color: white;
@@ -419,7 +441,7 @@ flex-direction: column;
         .linea{
             border-top: 3px solid white;
             height: 2px;
-            width: 200px;
+            width: 400px;
             margin-top: 15px;
         }
         .lista__Entrada{
@@ -459,7 +481,7 @@ flex-direction: column;
     color: white;
     height: 30vh;
     width: 100%;
-    background-color: black;
+    background-color: #011013;
     h5{
         text-transform: uppercase;
         letter-spacing: 3px;
@@ -475,31 +497,41 @@ flex-direction: column;
 .seccion__SushiMenu{
     height: 70vh;
     width: 100%;
-    background-color: black;
+    background-color: #011013;
     display: flex;
 
     .listaSushi{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: initial;
         align-items: center;
-        color: aqua;
-        font-size: 18px;
-        width: 30%;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        width: 20%;
+        margin-top: 12px;
+        ul{
+            li{
+                margin-bottom: 7px;
+            }
+        }
     }
 
     .lista__Rolls{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        width: 70%;
+        align-content: initial;
+        width: 80%;
         color: white;
         ul{
         p{
-            margin-top: 15px;
+            margin-top: 10px;
+            margin-bottom: -2px;
         }
         li{
             margin-right: 15px;
+            margin-bottom: 15px;
             list-style: none;
         }
     }
@@ -509,14 +541,137 @@ flex-direction: column;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 70%;
+    align-content: initial;
+    width: 80%;
     color: white;
     ul{
     p{
-        margin-top: 15px;
+        margin-top: 10px;
+        margin-bottom: -2px;
     }
     li{
         margin-right: 15px;
+        margin-bottom: 15px;
+        list-style: none;
+    }
+}
+}
+
+.lista__Niguiris{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: initial;
+    width: 80%;
+    color: white;
+    ul{
+    p{
+        margin-top: 10px;
+        margin-bottom: -2px;
+    }
+    li{
+        margin-right: 15px;
+        margin-bottom: 15px;
+        list-style: none;
+    }
+}
+}
+
+.lista__Sashimis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: initial;
+    width: 80%;
+    color: white;
+    ul{
+    p{
+        margin-top: 10px;
+        margin-bottom: -2px;
+    }
+    li{
+        margin-right: 15px;
+        margin-bottom: 15px;
+        list-style: none;
+    }
+}
+}
+
+.lista__Geishas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: initial;
+    width: 80%;
+    color: white;
+    ul{
+    p{
+        margin-top: 10px;
+        margin-bottom: -2px;
+    }
+    li{
+        margin-right: 15px;
+        margin-bottom: 15px;
+        list-style: none;
+    }
+}
+}
+
+.lista__Temakis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: initial;
+    width: 80%;
+    color: white;
+    ul{
+    p{
+        margin-top: 10px;
+        margin-bottom: -2px;
+    }
+    li{
+        margin-right: 15px;
+        margin-bottom: 15px;
+        list-style: none;
+    }
+}
+}
+
+.lista__Veggie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: initial;
+    width: 80%;
+    color: white;
+    ul{
+    p{
+        margin-top: 10px;
+        margin-bottom: -2px;
+    }
+    li{
+        margin-right: 15px;
+        margin-bottom: 15px;
+        list-style: none;
+    }
+}
+}
+
+.lista__VeganPlant{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: initial;
+    width: 80%;
+    color: white;
+    ul{
+    p{
+        margin-top: 10px;
+        margin-bottom: -2px;
+    }
+    li{
+        margin-right: 15px;
+        margin-bottom: 15px;
         list-style: none;
     }
 }
@@ -526,8 +681,6 @@ flex-direction: column;
     display: none;
 }
 
-
-
 .display{
     display: none;
 }
@@ -536,6 +689,131 @@ flex-direction: column;
 }
 }
 
+.seccionMenu4{
+    height: 100vh;
+    width: 100%;
+    background-color: #011013;
+    display: flex;
+    .seccion__Texto4{
+        color: white;
+        text-align: left;
+        height: 100vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        margin-top: 20px;
+        h2{
+            text-transform: uppercase;
+        }
+        h5{
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        .linea{
+            border-top: 3px solid white;
+            height: 2px;
+            width: 400px;
+            margin-top: 15px;
+        }
+        .lista__Entrada2{
+            display: flex;
+            flex-direction: column;
+
+            .modelo__TipoMenu2{
+                h6{
+                    color: white;
+                    font-weight: bolder;
+                }
+                p{
+                    color: white;
+                    width: 400px;
+                }
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .seccion__Img4{
+        background-image: url(imagenes/cateringSushi.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 50%;
+    }
+}
+
+.seccionMenu5{
+    height: 100vh;
+    width: 100%;
+    background-color: #011013;
+    display: flex;
+    .seccion__Texto5{
+        color: white;
+        text-align: left;
+        height: 100vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        margin-top: 20px;
+        h2{
+            text-transform: uppercase;
+        }
+        h5{
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        .linea{
+            border-top: 3px solid white;
+            height: 2px;
+            width: 400px;
+            margin-top: 15px;
+        }
+        .lista__Entrada5{
+            display: flex;
+            flex-direction: column;
+
+            .modelo__TipoMenu5{
+                h6{
+                    color: white;
+                    font-weight: bolder;
+                }
+                p{
+                    color: white;
+                    width: 400px;
+                }
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .seccion__Img5{
+        background-image: url(imagenes/salmon.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 50%;
+    }
+}
+
+// CIERRE - SECCION MENU // 
+
+// SECCION - CATERING // 
+
+.home__Catering{
+    height: 100vh;
+    width: 100%;
+    background-color: #011013;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
