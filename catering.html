@@ -47,7 +47,7 @@
 
     <!-- Etiquetas META - CIERRE -->
 
-    <title>KAME SUSHI</title>
+    <title>Kame House Sushi</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -68,6 +68,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -75,8 +76,7 @@
         <nav class="navbar fixed-top navbar-expand-lg p-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="imagenes/kameSushiLogo.jpg" width="100px" height="80px"
-                        class="d-inline-block align next-top">
+                    <img src="imagenes/kemHouseSushi.png" width="100px" height="100px" class="d-inline-block align next-top">
                 </a>
 
 
@@ -89,7 +89,7 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <div class="navbar-nav ms-auto mb-2 mb-1-0 text-center text-white">
                         <a class="nav-link active link-1" aria-current="page" href="menu.html">MENU</a>
-                        <a class="nav-link" href="#">PROMOS</a>
+                        <a class="nav-link" href="#">BENEFICIOS</a>
                         <a class="nav-link" href="#">CATERING Y EVENTOS</a>
                         <a class="nav-link" href="#">PEDIDOS</a>
                     </div>
@@ -98,26 +98,44 @@
         </nav>
     </header>
 
-    <main class="home__Catering">
+    <div class="espaciado">
+    </div>
 
-        <form method='POST' action='enviar.php'>
-            <div class="form-group">
-                <label for="nombre">Nombre</label>
-                <input type="text" class="form-control" name='nombre' id="nombre" placeholder="nombre...">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" name='email' id="email" placeholder="email...">
-            </div>
-            <div class="form-group">
-                <label for="exampleTextarea">Mensaje</label>
-                <textarea class="form-control" name='mensaje' id="mensaje" rows="3"></textarea>
-            </div>
-            <div class="form-group">
-                <input type="checkbox" required> Acepto la política de privacidad.
-            </div>
-            <button class="btn btn-primary" type="submit">Enviar</button>
-        </form>
+    <div class="pruebaTexto">
+        <h5> <span>Enjoy</span></h5>
+        <h2> <span>Catering & Eventos</span> </h2>
+    </div>
+
+    <div class="home">
+        <div class="home__Catering">
+            <h4>¿Tenés alguna consulta? Escribinos!</h4>
+            <form class="form">
+                <input type="text" name='nombre' id="nombre" placeholder="Nombre y Apellido">
+                <input type="email" name='email' id="email" placeholder="Email">
+                <input type="tel" name='telefono' id="telefono" placeholder="Teléfono">
+                <input type="text" name='direccion' id="direccion" placeholder="Direccion">
+                <input type="text" name='cantidad' id="cantidad" placeholder="Cantidad">
+                <textarea name='mensaje' id="mensaje" rows="3" class="textarea"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <div class="home__Img"></div>
+    </div>
+
+    <div class="propuesta">
+        <div class="propuesta__Texto">
+            <h4>Nuestra propuesta</h4>
+            <p>Si de vivir una experiencia única se trata, nuestras propuestas de catering están pensadas para crear un
+                evento privado o corporativo a la medida de tus deseos. Vos ocupate de disfrutar, nosotros nos ocupamos
+                de cada detalle para hacer que tu evento sea insuperable.</p>
+            <h4>Nuestro equipo</h4>
+            <p>Contamos con un equipo de gente plenamente capacitada y una estructura totalmente adaptable a tus
+                necesidades para que vivas una experiencia única en el lugar que vos quieras.</p>
+            <img src="imagenes/kemHouseSushi.png" width="180px" height="180px" alt="">
+        </div>
+        <div class="propuesta__Img"></div>
+    </div>
 
     <footer>
     </footer>

@@ -2,16 +2,20 @@
 
 
 .navbar {
-    background-color: #12151A;
+    background-color:#011013;
     height: 100px;
 
     .link-1 {
         font-weight: bolder;
     }
 
+    img{
+        margin-top:20px;
+    }
+
     a {
         color: white;
-        font-size: 15px;
+        font-size: 12px;
         letter-spacing: 2px;
         margin-right: 5px;
     }
@@ -133,7 +137,7 @@ main {
             }
         }
 
-        .promos {
+        .beneficios {
             background-image: url(imagenes/sushi.jpg);
             filter: grayscale(30%);
             background-position: center;
@@ -145,7 +149,7 @@ main {
             justify-content: center;
             width: 300px;
 
-            .promos__title {
+            .beneficios__title {
                 color: white;
                 font-family: 'Hind Siliguri', sans-serif;                font-weight: bold;
                 font-family: 50px;
@@ -805,15 +809,140 @@ flex-direction: column;
 
 // SECCION - CATERING // 
 
-.home__Catering{
+.espaciado{
     height: 100vh;
     width: 100%;
+    background-image: url(imagenes/mainCatering.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    }
+
+    .pruebaTexto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        margin-top: -400px;
+        h5{
+            font-size: 20px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            color: white;
+        }
+        h2{
+            font-size: 60px;
+            color: white;
+        }
+    }
+
+.home{
+    display: flex;
+    flex-direction: row;
+
+.home__Catering{
+    height: 100vh;
+    width: 50%;
     background-color: #011013;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    h4{
+        color: white;
+        // margin-bottom: 15px;
+    }
+
+    .form{
+        width: 450px;
+        label{
+            margin-top: 10px;
+        }
+        input{
+            margin-top: 25px;
+            width: 450px;
+            border-radius: 0%;
+            border-color: transparent white white white ;
+            border-width: solid 5px;
+            background-color: #011013;
+            color: white;
+            text-align: center;
+            outline: none;
+        }
+        .textarea{
+            margin-top: 30px;
+            margin-bottom: 15px;
+            width: 450px;
+            border-radius: 0%;
+            border-color: transparent white white white ;
+            border-width: solid 5px;
+            background-color: #011013;
+            color: white;
+            outline: none;
+        }
+        button{
+            height: 40px;
+            width: 150px;
+            background-color: #011013;
+            color: white;
+            text-align: center;
+            margin-left: 150px;
+        }
+    }
 }
+
+.home__Img{
+    height: 100vh;
+    width: 50%;
+    background-image: url(imagenes/trago.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
+.propuesta{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    background-color: #011013;
+    .propuesta__Texto{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        p{
+            width: 500px;
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        img{
+            margin-top: -30px;
+        }
+    }
+    .propuesta__Img{
+        width: 50%;
+        background-image: url(imagenes/japon.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+
 
 
 

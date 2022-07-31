@@ -4,38 +4,32 @@
 }
 
 .navbar {
-  background-color: #12151A;
+  background-color: #011013;
   height: 100px;
 }
-
 .navbar .link-1 {
   font-weight: bolder;
 }
-
+.navbar img {
+  margin-top: 20px;
+}
 .navbar a {
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: 2px;
   margin-right: 5px;
 }
-
 .navbar .toggler-custom {
   background-image: url("https://img.icons8.com/material-outlined/24/000000/menu--v3.png");
 }
 
 main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   background-color: #011013;
   width: 100%;
   height: 100vh;
 }
-
 main .imagen1 {
   background-image: url(imagenes/piezas.jpg);
   background-position: center;
@@ -44,251 +38,170 @@ main .imagen1 {
   width: 100%;
   height: 70vh;
 }
-
 main .texto {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   height: 30vh;
 }
-
 main .texto h1 {
   color: white;
   -webkit-text-decoration-line: overline;
           text-decoration-line: overline;
   text-transform: uppercase;
   font-size: 60px;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
   letter-spacing: 3px;
   margin-top: 25px;
 }
-
 main .texto p {
   color: white;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
   font-size: 18px;
   margin-top: 15px;
   text-align: center;
 }
 
 .seccionInfo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-image: url(imagenes/textura3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
-
 .seccionInfo .cajas {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   height: 80vh;
   width: 1000px;
 }
-
 .seccionInfo .cajas .menu {
   background-image: url(imagenes/menu.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 300px;
   margin-bottom: 20px;
 }
-
 .seccionInfo .cajas .menu .menu__title {
   color: white;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
   font-weight: bold;
   font-family: 50px;
   margin-top: 20px;
   text-align: center;
   text-transform: uppercase;
 }
-
 .seccionInfo .cajas .catering {
   background-image: url(imagenes/cateringSushi.jpg);
-  -webkit-filter: grayscale(30%);
-          filter: grayscale(30%);
+  filter: grayscale(30%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 300px;
 }
-
 .seccionInfo .cajas .catering .catering__title {
   color: white;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
   font-weight: bold;
   font-family: 50px;
   margin-top: 20px;
   text-align: center;
   text-transform: uppercase;
 }
-
-.seccionInfo .cajas .promos {
+.seccionInfo .cajas .beneficios {
   background-image: url(imagenes/sushi.jpg);
-  -webkit-filter: grayscale(30%);
-          filter: grayscale(30%);
+  filter: grayscale(30%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 300px;
 }
-
-.seccionInfo .cajas .promos .promos__title {
+.seccionInfo .cajas .beneficios .beneficios__title {
   color: white;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
   font-weight: bold;
   font-family: 50px;
   margin-top: 20px;
   text-align: center;
   text-transform: uppercase;
 }
-
 .seccionInfo .cajas .delivery {
   background-image: url(imagenes/sushiBox.jpg);
-  -webkit-filter: grayscale(30%);
-          filter: grayscale(30%);
+  filter: grayscale(30%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 300px;
 }
-
 .seccionInfo .cajas .delivery .delivery__title {
   color: white;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
   font-weight: bolder;
   font-family: 50px;
   margin-top: 20px;
   text-align: center;
   text-transform: uppercase;
 }
-
 .seccionInfo .cajas .salon {
   background-image: url(imagenes/sushiSalon.jpg);
-  -webkit-filter: grayscale(30%);
-          filter: grayscale(30%);
+  filter: grayscale(30%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 300px;
 }
-
 .seccionInfo .cajas .salon .salon__title {
   color: white;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
   font-weight: bolder;
   font-family: 50px;
   margin-top: 20px;
   text-align: center;
   text-transform: uppercase;
 }
-
 .seccionInfo .cajas .contacto {
   background-image: url(imagenes/sushiContact.jpg);
-  -webkit-filter: grayscale(30%);
-          filter: grayscale(30%);
+  filter: grayscale(30%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 300px;
 }
-
 .seccionInfo .cajas .contacto .contacto__title {
   color: white;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
   font-weight: bolder;
   font-family: 50px;
   margin-top: 20px;
@@ -297,60 +210,40 @@ main .texto p {
 }
 
 .seccionHistoria {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: #011013;
   height: 70vh;
   width: 100%;
 }
-
 .seccionHistoria .historia {
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
-
 .seccionHistoria .historia h2 {
   color: white;
-  font-family: 'Comforter Brush', cursive;
+  font-family: "Comforter Brush", cursive;
   font-size: 60px;
   font-weight: bold;
   margin-bottom: 45px;
   width: 180px;
 }
-
 .seccionHistoria .historia p {
   color: white;
   width: 520px;
   font-size: 18px;
   text-align: center;
 }
-
 .seccionHistoria .imagenNosotros {
   width: 50%;
   height: 100%;
   background-image: url(imagenes/sushiMan.jpg);
-  -webkit-filter: grayscale(30%);
-          filter: grayscale(30%);
+  filter: grayscale(30%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -359,38 +252,21 @@ main .texto p {
 .preFooter {
   height: 100vh;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: #011013;
 }
-
 .preFooter .textoPreFooter {
   width: 50%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
   letter-spacing: 6px;
 }
-
 .preFooter .imgPreFooter {
   width: 50%;
   height: 100%;
@@ -401,91 +277,60 @@ main .texto p {
 }
 
 footer {
-  background-color: #363636;
+  background-color: rgb(54, 54, 54);
   height: 30vh;
 }
 
 .primeraSeccion {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .primeraSeccion .seccionMenu {
   height: 100vh;
   width: 100%;
   background-color: #011013;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .primeraSeccion .seccionMenu .seccion__Texto {
   color: white;
   text-align: left;
   height: 100vh;
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 50px;
 }
-
 .primeraSeccion .seccionMenu .seccion__Texto h2 {
   text-transform: uppercase;
 }
-
 .primeraSeccion .seccionMenu .seccion__Texto h5 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-
 .primeraSeccion .seccionMenu .seccion__Texto .linea {
   border-top: 3px solid white;
   height: 2px;
   width: 400px;
   margin-top: 15px;
 }
-
 .primeraSeccion .seccionMenu .seccion__Texto .lista__Entrada {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .primeraSeccion .seccionMenu .seccion__Texto .lista__Entrada .modelo__TipoMenu {
   margin-top: 15px;
   margin-bottom: 5px;
 }
-
 .primeraSeccion .seccionMenu .seccion__Texto .lista__Entrada .modelo__TipoMenu h6 {
   color: white;
   font-weight: bolder;
 }
-
 .primeraSeccion .seccionMenu .seccion__Texto .lista__Entrada .modelo__TipoMenu p {
   color: white;
   width: 400px;
 }
-
 .primeraSeccion .seccionMenu .seccion__Img {
   background-image: url(imagenes/gyosa.jpg);
   background-position: center;
@@ -494,78 +339,52 @@ footer {
   height: 100vh;
   width: 50%;
 }
-
 .primeraSeccion .seccionMenu2 {
   height: 100vh;
   width: 100%;
   background-color: #011013;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .primeraSeccion .seccionMenu2 .seccion__Texto2 {
   color: white;
   text-align: left;
   height: 100vh;
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 30px;
 }
-
 .primeraSeccion .seccionMenu2 .seccion__Texto2 h2 {
   text-transform: uppercase;
 }
-
 .primeraSeccion .seccionMenu2 .seccion__Texto2 h5 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-
 .primeraSeccion .seccionMenu2 .seccion__Texto2 .linea {
   border-top: 3px solid white;
   height: 2px;
   width: 400px;
   margin-top: 15px;
 }
-
 .primeraSeccion .seccionMenu2 .seccion__Texto2 .lista__Entrada {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .primeraSeccion .seccionMenu2 .seccion__Texto2 .lista__Entrada .modelo__TipoMenu {
   margin-top: 15px;
   margin-bottom: 5px;
 }
-
 .primeraSeccion .seccionMenu2 .seccion__Texto2 .lista__Entrada .modelo__TipoMenu h6 {
   color: white;
   font-weight: bolder;
 }
-
 .primeraSeccion .seccionMenu2 .seccion__Texto2 .lista__Entrada .modelo__TipoMenu p {
   color: white;
   width: 400px;
 }
-
 .primeraSeccion .seccionMenu2 .seccion__Img2 {
   background-image: url(imagenes/tartar.jpeg);
   background-position: center;
@@ -574,78 +393,52 @@ footer {
   height: 100vh;
   width: 50%;
 }
-
 .primeraSeccion .seccionMenu3 {
   height: 100vh;
   width: 100%;
   background-color: #011013;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .primeraSeccion .seccionMenu3 .seccion__Texto3 {
   color: white;
   text-align: left;
   height: 100vh;
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
 }
-
 .primeraSeccion .seccionMenu3 .seccion__Texto3 h2 {
   text-transform: uppercase;
 }
-
 .primeraSeccion .seccionMenu3 .seccion__Texto3 h5 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-
 .primeraSeccion .seccionMenu3 .seccion__Texto3 .linea {
   border-top: 3px solid white;
   height: 2px;
   width: 400px;
   margin-top: 15px;
 }
-
 .primeraSeccion .seccionMenu3 .seccion__Texto3 .lista__Entrada {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .primeraSeccion .seccionMenu3 .seccion__Texto3 .lista__Entrada .modelo__TipoMenu {
   margin-top: 15px;
   margin-bottom: 5px;
 }
-
 .primeraSeccion .seccionMenu3 .seccion__Texto3 .lista__Entrada .modelo__TipoMenu h6 {
   color: white;
   font-weight: bolder;
 }
-
 .primeraSeccion .seccionMenu3 .seccion__Texto3 .lista__Entrada .modelo__TipoMenu p {
   color: white;
   width: 400px;
 }
-
 .primeraSeccion .seccionMenu3 .seccion__Img3 {
   background-image: url(imagenes/ensalada.jpg);
   background-position: center;
@@ -656,30 +449,19 @@ footer {
 }
 
 .seccion__SushiTitle {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
   height: 30vh;
   width: 100%;
   background-color: #011013;
 }
-
 .seccion__SushiTitle h5 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-
 .seccion__SushiTitle .linea {
   border-top: 3px solid white;
   height: 2px;
@@ -691,263 +473,165 @@ footer {
   height: 70vh;
   width: 100%;
   background-color: #011013;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .seccion__SushiMenu .listaSushi {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: initial;
-      -ms-flex-pack: initial;
-          justify-content: initial;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: initial;
+  align-items: center;
   color: white;
   font-size: 25px;
   font-weight: bold;
   width: 20%;
   margin-top: 12px;
 }
-
 .seccion__SushiMenu .listaSushi ul li {
   margin-bottom: 7px;
 }
-
 .seccion__SushiMenu .lista__Rolls {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: initial;
-      align-content: initial;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: initial;
   width: 80%;
   color: white;
 }
-
 .seccion__SushiMenu .lista__Rolls ul p {
   margin-top: 10px;
   margin-bottom: -2px;
 }
-
 .seccion__SushiMenu .lista__Rolls ul li {
   margin-right: 15px;
   margin-bottom: 15px;
   list-style: none;
 }
-
 .seccion__SushiMenu .lista__Especiales {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: initial;
-      align-content: initial;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: initial;
   width: 80%;
   color: white;
 }
-
 .seccion__SushiMenu .lista__Especiales ul p {
   margin-top: 10px;
   margin-bottom: -2px;
 }
-
 .seccion__SushiMenu .lista__Especiales ul li {
   margin-right: 15px;
   margin-bottom: 15px;
   list-style: none;
 }
-
 .seccion__SushiMenu .lista__Niguiris {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: initial;
-      align-content: initial;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: initial;
   width: 80%;
   color: white;
 }
-
 .seccion__SushiMenu .lista__Niguiris ul p {
   margin-top: 10px;
   margin-bottom: -2px;
 }
-
 .seccion__SushiMenu .lista__Niguiris ul li {
   margin-right: 15px;
   margin-bottom: 15px;
   list-style: none;
 }
-
 .seccion__SushiMenu .lista__Sashimis {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: initial;
-      align-content: initial;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: initial;
   width: 80%;
   color: white;
 }
-
 .seccion__SushiMenu .lista__Sashimis ul p {
   margin-top: 10px;
   margin-bottom: -2px;
 }
-
 .seccion__SushiMenu .lista__Sashimis ul li {
   margin-right: 15px;
   margin-bottom: 15px;
   list-style: none;
 }
-
 .seccion__SushiMenu .lista__Geishas {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: initial;
-      align-content: initial;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: initial;
   width: 80%;
   color: white;
 }
-
 .seccion__SushiMenu .lista__Geishas ul p {
   margin-top: 10px;
   margin-bottom: -2px;
 }
-
 .seccion__SushiMenu .lista__Geishas ul li {
   margin-right: 15px;
   margin-bottom: 15px;
   list-style: none;
 }
-
 .seccion__SushiMenu .lista__Temakis {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: initial;
-      align-content: initial;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: initial;
   width: 80%;
   color: white;
 }
-
 .seccion__SushiMenu .lista__Temakis ul p {
   margin-top: 10px;
   margin-bottom: -2px;
 }
-
 .seccion__SushiMenu .lista__Temakis ul li {
   margin-right: 15px;
   margin-bottom: 15px;
   list-style: none;
 }
-
 .seccion__SushiMenu .lista__Veggie {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: initial;
-      align-content: initial;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: initial;
   width: 80%;
   color: white;
 }
-
 .seccion__SushiMenu .lista__Veggie ul p {
   margin-top: 10px;
   margin-bottom: -2px;
 }
-
 .seccion__SushiMenu .lista__Veggie ul li {
   margin-right: 15px;
   margin-bottom: 15px;
   list-style: none;
 }
-
 .seccion__SushiMenu .lista__VeganPlant {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: initial;
-      align-content: initial;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: initial;
   width: 80%;
   color: white;
 }
-
 .seccion__SushiMenu .lista__VeganPlant ul p {
   margin-top: 10px;
   margin-bottom: -2px;
 }
-
 .seccion__SushiMenu .lista__VeganPlant ul li {
   margin-right: 15px;
   margin-bottom: 15px;
   list-style: none;
 }
-
 .seccion__SushiMenu .oculto {
   display: none;
 }
-
 .seccion__SushiMenu .display {
   display: none;
 }
-
 .seccion__SushiMenu .display2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -955,73 +639,48 @@ footer {
   height: 100vh;
   width: 100%;
   background-color: #011013;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .seccionMenu4 .seccion__Texto4 {
   color: white;
   text-align: left;
   height: 100vh;
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
 }
-
 .seccionMenu4 .seccion__Texto4 h2 {
   text-transform: uppercase;
 }
-
 .seccionMenu4 .seccion__Texto4 h5 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-
 .seccionMenu4 .seccion__Texto4 .linea {
   border-top: 3px solid white;
   height: 2px;
   width: 400px;
   margin-top: 15px;
 }
-
 .seccionMenu4 .seccion__Texto4 .lista__Entrada2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .seccionMenu4 .seccion__Texto4 .lista__Entrada2 .modelo__TipoMenu2 {
   margin-top: 15px;
   margin-bottom: 5px;
 }
-
 .seccionMenu4 .seccion__Texto4 .lista__Entrada2 .modelo__TipoMenu2 h6 {
   color: white;
   font-weight: bolder;
 }
-
 .seccionMenu4 .seccion__Texto4 .lista__Entrada2 .modelo__TipoMenu2 p {
   color: white;
   width: 400px;
 }
-
 .seccionMenu4 .seccion__Img4 {
   background-image: url(imagenes/cateringSushi.jpg);
   background-position: center;
@@ -1035,73 +694,48 @@ footer {
   height: 100vh;
   width: 100%;
   background-color: #011013;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .seccionMenu5 .seccion__Texto5 {
   color: white;
   text-align: left;
   height: 100vh;
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
 }
-
 .seccionMenu5 .seccion__Texto5 h2 {
   text-transform: uppercase;
 }
-
 .seccionMenu5 .seccion__Texto5 h5 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-
 .seccionMenu5 .seccion__Texto5 .linea {
   border-top: 3px solid white;
   height: 2px;
   width: 400px;
   margin-top: 15px;
 }
-
 .seccionMenu5 .seccion__Texto5 .lista__Entrada5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .seccionMenu5 .seccion__Texto5 .lista__Entrada5 .modelo__TipoMenu5 {
   margin-top: 15px;
   margin-bottom: 5px;
 }
-
 .seccionMenu5 .seccion__Texto5 .lista__Entrada5 .modelo__TipoMenu5 h6 {
   color: white;
   font-weight: bolder;
 }
-
 .seccionMenu5 .seccion__Texto5 .lista__Entrada5 .modelo__TipoMenu5 p {
   color: white;
   width: 400px;
 }
-
 .seccionMenu5 .seccion__Img5 {
   background-image: url(imagenes/salmon.jpg);
   background-position: center;
@@ -1111,22 +745,129 @@ footer {
   width: 50%;
 }
 
-.home__Catering {
+.espaciado {
+  height: 100vh;
+  width: 100%;
+  background-image: url(imagenes/mainCatering.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.pruebaTexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  margin-top: -400px;
+}
+.pruebaTexto h5 {
+  font-size: 20px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: white;
+}
+.pruebaTexto h2 {
+  font-size: 60px;
+  color: white;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+}
+.home .home__Catering {
+  height: 100vh;
+  width: 50%;
+  background-color: #011013;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home .home__Catering h4 {
+  color: white;
+}
+.home .home__Catering .form {
+  width: 450px;
+}
+.home .home__Catering .form label {
+  margin-top: 10px;
+}
+.home .home__Catering .form input {
+  margin-top: 25px;
+  width: 450px;
+  border-radius: 0%;
+  border-color: transparent white white white;
+  border-width: solid 5px;
+  background-color: #011013;
+  color: white;
+  text-align: center;
+  outline: none;
+}
+.home .home__Catering .form .textarea {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 450px;
+  border-radius: 0%;
+  border-color: transparent white white white;
+  border-width: solid 5px;
+  background-color: #011013;
+  color: white;
+  outline: none;
+}
+.home .home__Catering .form button {
+  height: 40px;
+  width: 150px;
+  background-color: #011013;
+  color: white;
+  text-align: center;
+  margin-left: 150px;
+}
+.home .home__Img {
+  height: 100vh;
+  width: 50%;
+  background-image: url(imagenes/trago.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.propuesta {
+  display: flex;
+  flex-direction: row;
   height: 100vh;
   width: 100%;
   background-color: #011013;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
-/*# sourceMappingURL=style.css.map */
+.propuesta .propuesta__Texto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.propuesta .propuesta__Texto p {
+  width: 500px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.propuesta .propuesta__Texto img {
+  margin-top: -30px;
+}
+.propuesta .propuesta__Img {
+  width: 50%;
+  background-image: url(imagenes/japon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
