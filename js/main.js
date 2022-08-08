@@ -8,9 +8,6 @@ const veggie = document.querySelector(".lista__Veggie");
 const veganPlant = document.querySelector(".lista__VeganPlant");
 
 
-
-
-
 const btnRolls = document.querySelector(".btnRolls").addEventListener("click", Mostrar_Ocultar);
 
 function MostrarRolls() {
@@ -128,3 +125,5 @@ function Mostrar_Ocultar8(){
     veggie.style.display = "none";
     veganPlant.style.display = "flex";    
 }
+
+

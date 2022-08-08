@@ -181,7 +181,7 @@ main {
             }
         }
 
-        .salon {
+        .nosotros {
             background-image: url(imagenes/sushiSalon.jpg);
             filter: grayscale(30%);
             background-position: center;
@@ -193,7 +193,7 @@ main {
             justify-content: center;
             width: 300px;
 
-            .salon__title {
+            .nosotros__title {
                 color: white;
                 font-family: 'Hind Siliguri', sans-serif;                font-weight: bolder;
                 font-family: 50px;
@@ -233,7 +233,7 @@ main {
         flex-direction: row;
         justify-content: space-around;
         background-color: #011013;
-        height: 70vh;
+        height: 100vh;
         width: 100%;
     .historia {
         width: 50%;
@@ -297,13 +297,43 @@ main {
     }
 }
 
-footer{
-    background-color: rgb(54, 54, 54);
-    height: 30vh;
-}
-
-
 // 2) SECCION MENU // 
+
+.espaciadoMenu{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagenes/principalMenu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    }
+
+    .textoMenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        margin-top: -400px;
+        h5{
+            font-size: 20px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            color: white;
+        }
+        h2{
+            font-size: 60px;
+            color: white;
+            text-align: center;
+        }
+    }
 
 .primeraSeccion{
 display: flex;
@@ -805,11 +835,11 @@ flex-direction: column;
     }
 }
 
-// CIERRE - SECCION MENU // 
+// FIN - SECCION MENU // 
 
-// SECCION - CATERING // 
+// INICIO - SECCION CATERING // 
 
-.espaciado{
+.espaciadoCatering{
     height: 100vh;
     width: 100%;
     background-image: url(imagenes/mainCatering.jpg);
@@ -841,6 +871,7 @@ flex-direction: column;
         h2{
             font-size: 60px;
             color: white;
+            text-align: center;
         }
     }
 
@@ -859,7 +890,6 @@ flex-direction: column;
     
     h4{
         color: white;
-        // margin-bottom: 15px;
     }
 
     .form{
@@ -941,8 +971,238 @@ flex-direction: column;
     }
 }
 
+// FIN - SECCION CATERING //
+
+// INICIO - SECCION BENEFICIOS //
+
+.espaciado__Beneficios{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagenes/sushiSalon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    }
+
+    .texto__Beneficios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        margin-top: -400px;
+        text-align: center;
+        h3{
+            font-size: 30px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            color: white;
+        }
+        h2{
+            font-size: 60px;
+            color: white;
+        }
+        h4{
+            font-size: 25px;
+            letter-spacing: 10px;
+            color:white;
+            margin-top: 15px;
+        }
+    }
 
 
+.lista__Beneficios{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    .beneficios{
+        width: 30%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        color: white;
+        h4{
+            margin-left: 10px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        p{
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        h3{
+            margin-left: 10px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        img{
+            width: 100px;
+            height: 50px;
+            margin-bottom: 10px;
+            margin-left: 300px;
+        }
+        .linea{
+            border-top: 3px solid white;
+            height: 2px;
+            width: 400px;
+    }
+}
+    .beneficios2{
+        width: 30%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        color: white;
+        margin-top: -50px;
+        h4{
+            margin-left: 10px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        p{
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        h3{
+            margin-left: 10px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        img{
+            width: 100px;
+            height: 60px;
+            margin-bottom: 10px;
+            margin-left: 300px;
+        }
+        .linea{
+            border-top: 3px solid white;
+            height: 2px;
+            width: 400px;
+    }
+}
+}
 
+// FIN - SECCION BENEFICIOS //
 
+// INICIO - SECCION CONTACTO //
+
+.espaciadoContacto{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagenes/restoJapones.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    }
+
+    .pruebaTexto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        margin-top: -400px;
+        h5{
+            font-size: 20px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            color: white;
+        }
+        h2{
+            font-size: 60px;
+            color: white;
+            text-align: center;
+        }
+    }
+
+    .lista__Sucursales{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: black;
+        .sucursales{
+            width: 30%;
+            height: 200px;
+            // background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+            color: white;
+            h4{
+                margin-left: 10px;
+                font-weight: bold;
+            }
+            p{
+                margin-left: 10px;
+            }
+            .linea{
+                border-top: 3px solid white;
+                height: 2px;
+                width: 400px;
+        }
+    }
+}
+
+.lista__Sucursales2{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    margin-top: -80px;
+    .sucursales{
+        width: 30%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        color: white;
+        h4{
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        p{
+            margin-left: 10px;
+        }
+        .linea{
+            border-top: 3px solid white;
+            height: 2px;
+            width: 400px;
+    }
+}
+}
+
+// FIN - SECCION CONTACTO //
 
