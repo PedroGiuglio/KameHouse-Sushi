@@ -217,7 +217,7 @@
                 align-items: center;
                 justify-content: center;
                 width: 300px;
-                margin-bottom: 20px;
+                margin-bottom: 25px;
     
                 .contacto__title {
                     color: white;
@@ -226,6 +226,7 @@
                     margin-top: 20px;
                     text-align: center;
                     text-transform: uppercase;
+                    margin-bottom: 20px;
                 }
             }
         }
@@ -552,7 +553,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            align-items: left;
             color: white;
             font-size: 25px;
             font-weight: bold;
@@ -564,7 +565,6 @@
                     list-style: none;
                 }
                 .linea{
-                    // display: flex;
                     border-top: 3px solid white;
                     height: 2px;
                     width: 300px;
@@ -584,6 +584,7 @@
             color: white;
             ul{
             p{
+                font-weight: bold;
                 margin-top: 10px;
                 margin-bottom: -2px;
             }
@@ -604,6 +605,7 @@
         color: white;
         ul{
         p{
+            font-weight: bold;
             margin-top: 10px;
             margin-bottom: -2px;
         }
@@ -624,6 +626,7 @@
         color: white;
         ul{
         p{
+            font-weight: bold;
             margin-top: 10px;
             margin-bottom: -2px;
         }
@@ -644,6 +647,7 @@
         color: white;
         ul{
         p{
+            font-weight: bold;
             margin-top: 10px;
             margin-bottom: -2px;
         }
@@ -664,6 +668,7 @@
         color: white;
         ul{
         p{
+            font-weight: bold;
             margin-top: 10px;
             margin-bottom: -2px;
         }
@@ -684,6 +689,7 @@
         color: white;
         ul{
         p{
+            font-weight: bold;
             margin-top: 10px;
             margin-bottom: -2px;
         }
@@ -704,6 +710,7 @@
         color: white;
         ul{
         p{
+            font-weight: bold;
             margin-top: 10px;
             margin-bottom: -2px;
         }
@@ -724,6 +731,7 @@
         color: white;
         ul{
         p{
+            font-weight: bold;
             margin-top: 10px;
             margin-bottom: -2px;
         }
@@ -906,29 +914,28 @@
     
     .home{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     
     .home__Catering{
-        height: 100vh;
-        width: 50%;
+        height: 80vh;
+        width: 100%;
         background-color: #011013;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center;        
         h4{
             color: white;
         }
     
         .form{
-            width: 450px;
+            width: 300px;
             label{
                 margin-top: 10px;
             }
             input{
                 margin-top: 25px;
-                width: 450px;
+                width: 300px;
                 border-radius: 0%;
                 border-color: transparent white white white ;
                 border-width: solid 5px;
@@ -940,7 +947,7 @@
             .textarea{
                 margin-top: 30px;
                 margin-bottom: 15px;
-                width: 450px;
+                width: 300px;
                 border-radius: 0%;
                 border-color: transparent white white white ;
                 border-width: solid 5px;
@@ -954,14 +961,14 @@
                 background-color: #011013;
                 color: white;
                 text-align: center;
-                margin-left: 150px;
+                margin-left: 80px;
             }
         }
     }
     
     .home__Img{
-        height: 100vh;
-        width: 50%;
+        height: 50vh;
+        width: 100%;
         background-image: url(imagenes/trago.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -971,28 +978,35 @@
     
     .propuesta{
         display: flex;
-        flex-direction: row;
-        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
         width: 100%;
         background-color: #011013;
         .propuesta__Texto{
-            width: 50%;
+            width: 100%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             color: white;
+            margin-top: 50px;
+            h4{
+                margin-bottom: 20px;
+            }
             p{
-                width: 500px;
+                width: 300px;
                 text-align: center;
-                margin-bottom: 80px;
+                margin-bottom: 60px;
             }
             img{
                 margin-top: -30px;
             }
         }
         .propuesta__Img{
-            width: 50%;
+            width: 100%;
+            height: 50vh;
             background-image: url(imagenes/japon.jpg);
             background-position: center;
             background-repeat: no-repeat;
@@ -1048,22 +1062,23 @@
     
     
     .lista__Beneficios{
-        height: 100vh;
+        height: auto;
         width: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         background-color: black;
         .beneficios{
-            width: 30%;
-            height: auto;
+            width: 100%;
+            height: 250px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: left;
             color: white;
+            margin-top: 20px;
             h4{
                 margin-left: 10px;
                 font-weight: bold;
@@ -1091,14 +1106,13 @@
         }
     }
         .beneficios2{
-            width: 30%;
-            height: auto;
+            width: 100%;
+            height: 250px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: left;
             color: white;
-            margin-top: -50px;
             h4{
                 margin-left: 10px;
                 font-weight: bold;
@@ -1168,18 +1182,16 @@
         }
     
         .lista__Sucursales{
-            height: 50vh;
+            height: 70vh;
             width: 100%;
             display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            flex-wrap: wrap;
             background-color: black;
             .sucursales{
-                width: 30%;
-                height: 200px;
-                // background-color: white;
+                width: 100%;
+                height: auto;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -1187,6 +1199,7 @@
                 color: white;
                 h4{
                     margin-left: 10px;
+                    margin-top: 15px;
                     font-weight: bold;
                 }
                 p{
@@ -1195,24 +1208,23 @@
                 .linea{
                     border-top: 3px solid white;
                     height: 2px;
-                    width: 400px;
+                    width: 300px;
             }
         }
-    }
+        }
     
     .lista__Sucursales2{
-        height: 50vh;
+        height: 70vh;
         width: 100%;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
         background-color: black;
         margin-top: -80px;
         .sucursales{
-            width: 30%;
-            height: 200px;
+            width: 100%;
+            height: auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -1220,6 +1232,7 @@
             color: white;
             h4{
                 margin-left: 10px;
+                margin-top: 15px;
                 font-weight: bold;
             }
             p{
@@ -1228,7 +1241,7 @@
             .linea{
                 border-top: 3px solid white;
                 height: 2px;
-                width: 400px;
+                width: 300px;
         }
     }
     }
@@ -1452,7 +1465,7 @@
                     align-items: center;
                     justify-content: center;
                     width: 300px;
-                    margin-bottom: 20px;
+                    margin-bottom: 25px;
         
                     .contacto__title {
                         color: white;
@@ -1461,6 +1474,7 @@
                         margin-top: 20px;
                         text-align: center;
                         text-transform: uppercase;
+                        margin-bottom: 20px;
                     }
                 }
             }
@@ -1787,7 +1801,7 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                align-items: center;
+                align-items: left;
                 color: white;
                 font-size: 25px;
                 font-weight: bold;
@@ -1799,7 +1813,6 @@
                         list-style: none;
                     }
                     .linea{
-                        // display: flex;
                         border-top: 3px solid white;
                         height: 2px;
                         width: 300px;
@@ -2051,7 +2064,13 @@
             flex-direction: column;
             justify-content: center;
             .seccion__Img5{
-                display: none;
+                margin-top: 25px;
+                background-image: url(imagenes/salmon.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 50vh;
+                width: 100%;
             }
             .seccion__Texto5{
                 color: white;
@@ -2141,29 +2160,28 @@
         
         .home{
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
         
         .home__Catering{
-            height: 100vh;
-            width: 50%;
+            height: 80vh;
+            width: 100%;
             background-color: #011013;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
-            
+            align-items: center;        
             h4{
                 color: white;
             }
         
             .form{
-                width: 450px;
+                width: 300px;
                 label{
                     margin-top: 10px;
                 }
                 input{
                     margin-top: 25px;
-                    width: 450px;
+                    width: 300px;
                     border-radius: 0%;
                     border-color: transparent white white white ;
                     border-width: solid 5px;
@@ -2175,7 +2193,7 @@
                 .textarea{
                     margin-top: 30px;
                     margin-bottom: 15px;
-                    width: 450px;
+                    width: 300px;
                     border-radius: 0%;
                     border-color: transparent white white white ;
                     border-width: solid 5px;
@@ -2189,14 +2207,14 @@
                     background-color: #011013;
                     color: white;
                     text-align: center;
-                    margin-left: 150px;
+                    margin-left: 80px;
                 }
             }
         }
         
         .home__Img{
-            height: 100vh;
-            width: 50%;
+            height: 50vh;
+            width: 100%;
             background-image: url(imagenes/trago.jpg);
             background-position: center;
             background-repeat: no-repeat;
@@ -2206,28 +2224,35 @@
         
         .propuesta{
             display: flex;
-            flex-direction: row;
-            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: auto;
             width: 100%;
             background-color: #011013;
             .propuesta__Texto{
-                width: 50%;
+                width: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 color: white;
+                margin-top: 50px;
+                h4{
+                    margin-bottom: 20px;
+                }
                 p{
-                    width: 500px;
+                    width: 300px;
                     text-align: center;
-                    margin-bottom: 80px;
+                    margin-bottom: 60px;
                 }
                 img{
                     margin-top: -30px;
                 }
             }
             .propuesta__Img{
-                width: 50%;
+                width: 100%;
+                height: 50vh;
                 background-image: url(imagenes/japon.jpg);
                 background-position: center;
                 background-repeat: no-repeat;
@@ -2283,22 +2308,23 @@
         
         
         .lista__Beneficios{
-            height: 100vh;
+            height: auto;
             width: 100%;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
             background-color: black;
             .beneficios{
-                width: 30%;
-                height: auto;
+                width: 100%;
+                height: 250px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: left;
                 color: white;
+                margin-top: 20px;
                 h4{
                     margin-left: 10px;
                     font-weight: bold;
@@ -2326,14 +2352,13 @@
             }
         }
             .beneficios2{
-                width: 30%;
-                height: auto;
+                width: 100%;
+                height: 250px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: left;
                 color: white;
-                margin-top: -50px;
                 h4{
                     margin-left: 10px;
                     font-weight: bold;
@@ -2403,18 +2428,16 @@
             }
         
             .lista__Sucursales{
-                height: 50vh;
+                height: 70vh;
                 width: 100%;
                 display: flex;
-                flex-direction: row;
-                justify-content: space-around;
+                flex-direction: column;
+                justify-content: center;
                 align-items: center;
-                flex-wrap: wrap;
                 background-color: black;
                 .sucursales{
-                    width: 30%;
-                    height: 200px;
-                    // background-color: white;
+                    width: 100%;
+                    height: auto;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -2422,6 +2445,7 @@
                     color: white;
                     h4{
                         margin-left: 10px;
+                        margin-top: 15px;
                         font-weight: bold;
                     }
                     p{
@@ -2430,24 +2454,23 @@
                     .linea{
                         border-top: 3px solid white;
                         height: 2px;
-                        width: 400px;
+                        width: 300px;
                 }
             }
-        }
+            }
         
         .lista__Sucursales2{
-            height: 50vh;
+            height: 70vh;
             width: 100%;
             display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            flex-wrap: wrap;
             background-color: black;
             margin-top: -80px;
             .sucursales{
-                width: 30%;
-                height: 200px;
+                width: 100%;
+                height: auto;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -2455,6 +2478,7 @@
                 color: white;
                 h4{
                     margin-left: 10px;
+                    margin-top: 15px;
                     font-weight: bold;
                 }
                 p{
@@ -2463,12 +2487,12 @@
                 .linea{
                     border-top: 3px solid white;
                     height: 2px;
-                    width: 400px;
+                    width: 300px;
             }
         }
         }
         
-        } 
+        }  
 
 @media screen and (min-width: 1200px) {
                 .navbar {
@@ -2986,6 +3010,9 @@
                     height: 30vh;
                     width: 100%;
                     background-color: #011013;
+                    h2{
+                        text-transform: uppercase;
+                    }
                     h5{
                         text-transform: uppercase;
                         letter-spacing: 3px;
@@ -3013,13 +3040,15 @@
                         font-size: 25px;
                         font-weight: bold;
                         width: 20%;
-                        margin-top: 12px;
                         ul{
                             li{
-                                margin-bottom: 7px;
+                                margin-bottom: 5px;
+                                list-style: none;
                             }
                             .linea{
-                                display: none;
+                                border-top: 3px solid white;
+                                height: 2px;
+                                width: 200px;
                             }
                         }
                     }
@@ -3033,6 +3062,7 @@
                         color: white;
                         ul{
                         p{
+                            font-weight: bold;
                             margin-top: 10px;
                             margin-bottom: -2px;
                         }
@@ -3053,6 +3083,7 @@
                     color: white;
                     ul{
                     p{
+                        font-weight: bold;
                         margin-top: 10px;
                         margin-bottom: -2px;
                     }
@@ -3073,6 +3104,7 @@
                     color: white;
                     ul{
                     p{
+                        font-weight: bold;
                         margin-top: 10px;
                         margin-bottom: -2px;
                     }
@@ -3093,6 +3125,7 @@
                     color: white;
                     ul{
                     p{
+                        font-weight: bold;
                         margin-top: 10px;
                         margin-bottom: -2px;
                     }
@@ -3113,6 +3146,7 @@
                     color: white;
                     ul{
                     p{
+                        font-weight: bold;
                         margin-top: 10px;
                         margin-bottom: -2px;
                     }
@@ -3133,6 +3167,7 @@
                     color: white;
                     ul{
                     p{
+                        font-weight: bold;
                         margin-top: 10px;
                         margin-bottom: -2px;
                     }
@@ -3153,6 +3188,7 @@
                     color: white;
                     ul{
                     p{
+                        font-weight: bold;
                         margin-top: 10px;
                         margin-bottom: -2px;
                     }
@@ -3173,6 +3209,7 @@
                     color: white;
                     ul{
                     p{
+                        font-weight: bold;
                         margin-top: 10px;
                         margin-bottom: -2px;
                     }
